@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name broom)(type KiCad)(uri ${KIPRJMOD}/broom.pretty)(options "")(descr ""))
+  (lib (name chocorne)(type KiCad)(uri ${KIPRJMOD}/chocorne.pretty)(options "")(descr ""))
+  (lib (name silk)(type KiCad)(uri ${KIPRJMOD}/silk.pretty)(options "")(descr ""))
+  (lib (name Lory)(type KiCad)(uri ${KIPRJMOD}/Lory.pretty)(options "")(descr ""))
+)
