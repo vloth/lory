@@ -11,6 +11,6 @@
 | MCU | 2 | [aliexpress](https://nl.aliexpress.com/item/32849563958.html?spm=a2g0o.productlist.0.0.67bf2a1cLuEYaZ&algo_pvid=afe744db-2dbb-46f8-9e56-e76eb678a6ec&algo_exp_id=afe744db-2dbb-46f8-9e56-e76eb678a6ec-0) | |
 | MCU Socket | 24 pins | [aliexpress](https://nl.aliexpress.com/item/32817226478.html?spm=a2g0o.cart.0.0.297b3c00irCY52&mp=1) | optional |
 | Copper wire 0.5mm | 1 | [aliexpress](https://nl.aliexpress.com/item/4000781904492.html?spm=a2g0s.9042311.0.0.27424c4dlrgRjA) | optional, required only if pro micro will be socketed |
-| Reset swtich | 2 | [aliexpress](https://nl.aliexpress.com/item/1068908059.html?spm=a2g0s.9042311.0.0.27424c4dlrgRjA) | optional |
+| 1136-4.3 Reset swtich | 2 | [aliexpress](https://nl.aliexpress.com/item/1068908059.html?spm=a2g0s.9042311.0.0.27424c4dlrgRjA) | optional |
 | 3mm M1.3 Holties | 68 holties | [aliexpress](https://www.aliexpress.com/item/33026899340.html?spm=a2g0s.9042311.0.0.27424c4dEvWxnR) | optional |
 
