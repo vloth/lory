@@ -76,30 +76,6 @@
 
   (net 0 "")
 
-  (footprint "broom:mouse-bite-2mm-slot-with-space-for-track" (layer "F.Cu")
-    (tedit 61601D8D) (tstamp 0d3c7313-2504-4a43-809d-bea18d8d142c)
-    (at 222.123 94.868 90)
-    (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -2 90) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.2)))
-      (tstamp 6d9e2da3-f6cf-4238-a3cc-06bfd687367e)
-    )
-    (fp_text value "VAL**" (at 0 2.1 90) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.2)))
-      (tstamp f99eb473-2313-4e9a-acc5-98ac9acf75cf)
-    )
-    (fp_arc (start -2 0) (end -2 -1) (angle 180) (layer "Dwgs.User") (width 0.1) (tstamp 4279765f-afd0-4e4d-8954-77ee5a0ae540))
-    (fp_arc (start 2 0) (end 2 1) (angle 180) (layer "Dwgs.User") (width 0.1) (tstamp dce59523-5498-42f5-85c6-abc6b67a7e7f))
-    (fp_circle (center 2 0) (end 2.06 0) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp 72f907f7-f139-4fe3-8f62-dc12361b21b5))
-    (fp_circle (center -2 0) (end -2 -0.06) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp db64f566-b090-451f-aaad-53c98c4196d4))
-    (fp_line (start 2 0) (end 2 0) (layer "Eco1.User") (width 2) (tstamp 534b0138-fabb-4808-9a25-a4216448548e))
-    (fp_line (start -2 0) (end -2 0) (layer "Eco1.User") (width 2) (tstamp 825889c9-faa8-4dfa-87f8-b66b2c7eb85a))
-    (pad "" np_thru_hole circle locked (at -0.75 0.75 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask) (tstamp 047e5b87-9385-48b6-9968-db15b1588ebe))
-    (pad "" np_thru_hole circle locked (at 0.75 -0.75 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask) (tstamp 565afd04-75fa-420a-85f1-ade9dca8c8ea))
-    (pad "" np_thru_hole circle locked (at 0.75 0.75 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask) (tstamp 70dc41b2-3995-41b8-a797-e5f5042899d9))
-    (pad "" np_thru_hole circle locked (at -0.75 -0.75 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask) (tstamp d860b613-b2ab-4ff9-b18c-77aaf9bc1829))
-  )
-
   (footprint "broom:SW_PG1350_cut" (layer "F.Cu")
     (tedit 5F05DFF4) (tstamp 2e4eb1bd-266d-4148-a52e-b6023e07f83d)
     (at 124.919 93.53 8)
@@ -186,7 +162,7 @@
 
   (footprint "chocorne:LEGO_HOLE" (layer "F.Cu")
     (tedit 6097ADB0) (tstamp 47053596-ba74-48b3-a822-1d2797a26388)
-    (at 195.53 111.002)
+    (at 195.106 113.096)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -265,7 +241,7 @@
 
   (footprint "broom:mouse-bite-2mm-slot-with-space-for-track" (layer "F.Cu")
     (tedit 61601D8D) (tstamp 6e2ad2a5-4061-4f14-863d-b1637e2df0b3)
-    (at 222.256 100.784 180)
+    (at 191.888 83.068 180)
     (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.2)))
@@ -289,7 +265,7 @@
 
   (footprint "chocorne:LEGO_HOLE" (layer "F.Cu")
     (tedit 6097ADD5) (tstamp 8520a7a4-f90c-4619-9e30-1e98949422c4)
-    (at 210.775 110.997)
+    (at 210.351 113.091)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -646,31 +622,25 @@
     (fp_line (start 7 -7) (end 7 7) (layer "Edge.Cuts") (width 0.15) (tstamp e34459bf-3aa8-4b05-9331-5729a5258d70))
   )
 
+  (gr_line (start 193.138 115.382) (end 193.138 83.85) (layer "Edge.Cuts") (width 0.15) (tstamp 0a9b8f47-a710-4ebc-b503-00b4c646f91a))
   (gr_arc (start 189.869405 63.084258) (end 190.664405 63.059258) (angle -75.82503188) (layer "Edge.Cuts") (width 0.15) (tstamp 0b843dff-ba9e-4561-b79b-fd94036733d6))
-  (gr_line (start 193.562 74.723) (end 212.746 74.712) (layer "Edge.Cuts") (width 0.15) (tstamp 2600aef0-55e7-486c-97a5-7d49fb7776f9))
+  (gr_line (start 193.138 83.85) (end 190.667 83.85) (layer "Edge.Cuts") (width 0.15) (tstamp 25d78773-160e-43ae-866d-b566369d8928))
+  (gr_line (start 193.138 76.817) (end 212.322 76.806) (layer "Edge.Cuts") (width 0.15) (tstamp 2600aef0-55e7-486c-97a5-7d49fb7776f9))
   (gr_line (start 211.234 117.98) (end 211.231003 128.040862) (layer "Edge.Cuts") (width 0.15) (tstamp 426e2992-1ad3-489a-89cc-83d5f05e3e84))
-  (gr_line (start 190.669 118) (end 190.664405 63.059258) (layer "Edge.Cuts") (width 0.15) (tstamp 452499d9-f403-42ef-b538-b4ee2fb60f8d))
-  (gr_line (start 193.562 113.288) (end 212.746 113.277) (layer "Edge.Cuts") (width 0.15) (tstamp 60d902c8-7d9d-4d47-ae0f-074e021be140))
+  (gr_line (start 190.669 82.3) (end 190.664405 63.059258) (layer "Edge.Cuts") (width 0.15) (tstamp 452499d9-f403-42ef-b538-b4ee2fb60f8d))
+  (gr_line (start 190.669 118) (end 190.664405 83.85) (layer "Edge.Cuts") (width 0.15) (tstamp 5326c723-61a8-4192-a08b-4133cfa515fb))
+  (gr_line (start 193.138 115.382) (end 212.322 115.371) (layer "Edge.Cuts") (width 0.15) (tstamp 60d902c8-7d9d-4d47-ae0f-074e021be140))
   (gr_line (start 88.127953 83.292666) (end 105.361412 136.251738) (layer "Edge.Cuts") (width 0.15) (tstamp 6178242e-393c-495f-acf6-7a4caf33b069))
-  (gr_line (start 193.562 113.288) (end 193.562 74.723) (layer "Edge.Cuts") (width 0.15) (tstamp 8a669e94-7038-46fd-9b70-906083bff600))
+  (gr_line (start 193.138 82.3) (end 193.138 76.817) (layer "Edge.Cuts") (width 0.15) (tstamp 8a669e94-7038-46fd-9b70-906083bff600))
   (gr_arc (start 155.4857 240.406359) (end 190.039849 62.307342) (angle -30.52241692) (layer "Edge.Cuts") (width 0.15) (tstamp 956a31ff-23e7-4668-88a7-11afe580d8ac))
   (gr_arc (start 188.968743 128.55) (end 206.239908 142.606113) (angle -40.45049692) (layer "Edge.Cuts") (width 0.15) (tstamp aeea03eb-73b4-4cc2-a2b0-3d30f1a3a847))
   (gr_arc (start 99.626551 80.295466) (end 94.799583 69.437227) (angle -80.64225145) (layer "Edge.Cuts") (width 0.15) (tstamp c3db75b5-6bd2-49f9-94e0-95355049217d))
+  (gr_line (start 193.138 82.3) (end 190.669 82.3) (layer "Edge.Cuts") (width 0.15) (tstamp dcec16a0-2a06-4b8e-bf64-6425baf50fe1))
   (gr_arc (start 141.689 320.542281) (end 106.709135 136.975628) (angle 18.02701016) (layer "Edge.Cuts") (width 0.15) (tstamp e0e96ec1-1110-43d6-9ebf-155a18f94a82))
   (gr_arc (start 135.189 334.05) (end 165.233781 135.161726) (angle 10.5566717) (layer "Edge.Cuts") (width 0.15) (tstamp e26ee8fd-135d-401c-b76d-978406832e9d))
-  (gr_line (start 212.746 113.277) (end 212.746 74.712) (layer "Edge.Cuts") (width 0.15) (tstamp e733b390-f7c4-44db-8681-523d96046aea))
+  (gr_line (start 212.322 115.371) (end 212.322 76.806) (layer "Edge.Cuts") (width 0.15) (tstamp e733b390-f7c4-44db-8681-523d96046aea))
   (gr_arc (start 202.695496 139.738695) (end 201.163167 144.032518) (angle -70.66711935) (layer "Edge.Cuts") (width 0.15) (tstamp ec682b10-e9a8-4ff4-847a-afa6c4124c5f))
   (gr_arc (start 106.46079 135.821466) (end 105.361412 136.251738) (angle -80.76911852) (layer "Edge.Cuts") (width 0.15) (tstamp f123dd78-962e-43bf-aead-433f328d8b28))
   (gr_line (start 190.669 118) (end 211.234 117.98) (layer "Edge.Cuts") (width 0.15) (tstamp f68d1282-b9b0-4383-b740-b2f8342b0f42))
 
-  (group "" (id a308bf8a-7b15-4c69-8d2d-f307d8baa6de)
-    (members
-      2600aef0-55e7-486c-97a5-7d49fb7776f9
-      47053596-ba74-48b3-a822-1d2797a26388
-      60d902c8-7d9d-4d47-ae0f-074e021be140
-      8520a7a4-f90c-4619-9e30-1e98949422c4
-      8a669e94-7038-46fd-9b70-906083bff600
-      e733b390-f7c4-44db-8681-523d96046aea
-    )
-  )
 )
